@@ -1,12 +1,10 @@
 body {
   font-family: "Times New Roman", Times, serif;
-  background-color: #f8f8f8;
-  color: #333;
-  margin: 40px;
+  color: lightblue;
 }
 
 h1, h2 {
-  color: pink;
+  color: lightpink;
 }
 
 p {
@@ -20,7 +18,7 @@ table, th, td {
 }
 
 .evenrow {
-  background-color: #d9e6f2;
+  background-color: #ADD8E6; /* light blue for zebra rows */
 }
 
 h1 {
