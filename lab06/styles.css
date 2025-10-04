@@ -1,0 +1,32 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: #f8f8f8;
+  color: #333;
+  margin: 40px;
+}
+
+h1, h2 {
+  color: pink;
+}
+
+p {
+  line-height: 1.6;
+}
+
+table, th, td {
+  border: 1px solid #333;
+  border-collapse: collapse;
+  padding: 8px;
+}
+
+.evenrow {
+  background-color: #d9e6f2;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
