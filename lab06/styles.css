@@ -18,13 +18,8 @@ table, th, td {
 }
 
 .evenrow {
-  background-color: #ADD8E6; /* light blue for zebra rows */
+  background-color: #ADD8E6;
 }
 
-h1 {
-  font-size: 2em;
-}
-
-h2 {
-  font-size: 1.5em;
-}
+h1 { font-size: 2em; }
+h2 { font-size: 1.5em; }
