@@ -1,1 +1,22 @@
+body {
+  background-color: #CDB4DB;
+  color: #FFAFCC;
+  font-family: "Times New Roman", serif;
+}
 
+h1, h2 {
+  color: #FB6F92;
+}
+
+a {
+  color: #A2D2FF;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #BDE0FE;
+}
+
+nav {
+  background-color: #FFC8DD;
+}
