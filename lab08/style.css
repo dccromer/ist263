@@ -35,12 +35,16 @@ nav a:hover {
   transition: 0.3s;
 }
 
+footer {
+  overflow: auto;          
+}
+
 footer p {
   display: inline-block;
   margin: 0;
 }
 
 footer p.tagline {
-  float: right;
+  float: right;             /* move the quote to the right side */
   font-style: italic;
 }
