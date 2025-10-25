@@ -35,6 +35,11 @@ nav a:hover {
   transition: 0.3s;
 }
 
+footer p {
+  display: inline-block;
+  margin: 0;
+}
+
 footer p.tagline {
   float: right;
   font-style: italic;
