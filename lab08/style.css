@@ -36,7 +36,11 @@ nav a:hover {
 }
 
 footer {
-  overflow: auto;          
+  overflow: auto;
+  background-color: #FFC8DD;
+  color: #FB6F92;
+  padding: 8px 10px;
+  font-size: 0.9em;
 }
 
 footer p {
@@ -45,6 +49,7 @@ footer p {
 }
 
 footer p.tagline {
-  float: right;             /* move the quote to the right side */
+  float: right;
   font-style: italic;
+  color: #FB6F92;
 }
