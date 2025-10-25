@@ -34,3 +34,8 @@ nav a:hover {
   color: white;
   transition: 0.3s;
 }
+
+footer p.tagline {
+  float: right;
+  font-style: italic;
+}
