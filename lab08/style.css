@@ -90,3 +90,15 @@ footer .tagline {
   font-style: italic;
   color: #A2D2FF;
 }
+
+
+
+footer p {
+  display: inline-block;
+  margin: 0;
+}
+
+footer p.tagline {
+  float: right;
+  font-style: italic;
+}
