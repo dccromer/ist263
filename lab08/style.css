@@ -12,7 +12,6 @@ a {
   color: #A2D2FF;
   text-decoration: none;
 }
-
 a:hover {
   color: #BDE0FE;
 }
@@ -22,20 +21,40 @@ nav {
   padding: 10px;
   margin-bottom: 30px;
 }
-
 nav a {
   color: #FB6F92;
-  text-decoration: none;
   font-weight: bold;
 }
-
 nav a:hover {
   background-color: #FFC8DD;
   color: white;
   transition: 0.3s;
 }
 
-/* === table rules from lab06 === */
+header {
+  border: 2px solid red;
+}
+
+main {
+  border: 2px solid green;
+}
+
+footer {
+  border-top: 2px solid #b8a5c6;
+  overflow: auto;
+}
+
+footer p {
+  display: inline-block;
+  margin: 0;
+}
+
+footer .tagline {
+  float: right;
+  font-style: italic;
+  color: #A2D2FF;
+}
+
 table, th, td {
   border: 1px solid #333;
   border-collapse: collapse;
