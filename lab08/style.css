@@ -102,3 +102,8 @@ footer p.tagline {
   float: right;
   font-style: italic;
 }
+
+
+footer .left{ float:left; }
+footer .right{ float:right; }
+footer::after{ content:""; display:block; clear:both; }
