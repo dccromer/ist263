@@ -1,16 +1,42 @@
+
 body {
-  font-family: "Times New Roman", Times, serif;
-  color: lightblue;
+  background-color: #CDB4DB;
+  color: #FFAFCC;
+  font-family: "Times New Roman", serif;
 }
 
 h1, h2 {
-  color: lightpink;
+  color: #FB6F92;
 }
 
-p {
-  line-height: 1.6;
+a {
+  color: #A2D2FF;
+  text-decoration: none;
 }
 
+a:hover {
+  color: #BDE0FE;
+}
+
+nav {
+  background-color: #FFC8DD;
+  padding: 10px;
+  margin-bottom: 30px;
+}
+
+nav a {
+  color: #FB6F92;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  background-color: #FFC8DD;
+  color: white;
+  transition: 0.3s;
+}
+
+/* === table rules from lab06 === */
 table, th, td {
   border: 1px solid #333;
   border-collapse: collapse;
@@ -21,5 +47,6 @@ table, th, td {
   background-color: #ADD8E6;
 }
 
-h1 { font-size: 2em; }
-h2 { font-size: 1.5em; }
+p {
+  line-height: 1.6;
+}
