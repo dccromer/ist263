@@ -72,3 +72,21 @@ table, th, td {
 p {
   line-height: 1.6;
 }
+
+
+footer {
+  border-top: 2px solid #b8a5c6;
+  overflow: auto;
+  padding-top: 8px;
+}
+
+footer p {
+  display: inline-block;
+  margin: 0;
+}
+
+footer .tagline {
+  float: right;
+  font-style: italic;
+  color: #A2D2FF;
+}
