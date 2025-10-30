@@ -25,6 +25,7 @@ nav {
 
 nav a {
   color: #FB6F92;
+  text-decoration: none;
   font-weight: bold;
 }
 
@@ -34,6 +35,7 @@ nav a:hover {
   transition: 0.3s;
 }
 
+/* === table rules from lab06 === */
 table, th, td {
   border: 1px solid #333;
   border-collapse: collapse;
@@ -46,67 +48,4 @@ table, th, td {
 
 p {
   line-height: 1.6;
-}
-
-footer {
-  border-top: 2px solid #b8a5c6;
-  padding-top: 8px;
-  overflow: auto;
-}
-
-footer p {
-  display: inline-block;
-  margin: 0;
-}
-
-footer .tagline {
-  float: right;
-  font-style: italic;
-  color: #A2D2FF;
-}
-
-footer .left {
-  float: left;
-}
-
-footer .right {
-  float: right;
-}
-
-footer::after {
-  content: "";
-  display: block;
-  clear: both;
-}
-
-.row {
-  display: flex;
-  gap: 16px;
-  margin: 16px 0;
-}
-
-.col {
-  flex: 1;
-  background: #f3e7f2;
-  padding: 16px;
-  border-radius: 12px;
-}
-
-.row1 .address, .row1 .links {
-  background: #f8edf6;
-}
-
-.row2 .form, .row2 .map {
-  background: #f8edf6;
-}
-
-form input[type="email"], form textarea {
-  width: 100%;
-  max-width: 100%;
-}
-
-iframe {
-  width: 100%;
-  height: 300px;
-  border: 0;
 }
