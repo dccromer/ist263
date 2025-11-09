@@ -4,10 +4,12 @@ body {
   font-family: "Times New Roman", serif;
 }
 
+/* Headings */
 h1, h2 {
   color: #FB6F92;
 }
 
+/* Links */
 a {
   color: #A2D2FF;
   text-decoration: none;
@@ -17,25 +19,42 @@ a:hover {
   color: #BDE0FE;
 }
 
-nav {
+/* === FLEXBOX HEADER === */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   background-color: #FFC8DD;
-  padding: 10px;
-  margin-bottom: 30px;
+  padding: 15px 25px;
+  border-bottom: 3px solid #FB6F92;
+}
+
+header h1 {
+  font-size: 1.8em;
+  margin: 0;
+  color: #FB6F92;
 }
 
 nav a {
   color: #FB6F92;
-  text-decoration: none;
   font-weight: bold;
+  margin: 0 10px;
 }
 
 nav a:hover {
-  background-color: #FFC8DD;
   color: white;
+  background-color: #FB6F92;
+  padding: 4px 8px;
+  border-radius: 6px;
   transition: 0.3s;
 }
 
-/* === table rules from lab06 === */
+/* === General Styles === */
+p {
+  line-height: 1.6;
+}
+
+/* === Table Rules (from lab06) === */
 table, th, td {
   border: 1px solid #333;
   border-collapse: collapse;
@@ -44,8 +63,4 @@ table, th, td {
 
 .evenrow {
   background-color: #ADD8E6;
-}
-
-p {
-  line-height: 1.6;
 }
