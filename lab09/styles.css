@@ -4,12 +4,10 @@ body {
   font-family: "Times New Roman", serif;
 }
 
-/* Headings */
 h1, h2 {
   color: #FB6F92;
 }
 
-/* Links */
 a {
   color: #A2D2FF;
   text-decoration: none;
@@ -19,7 +17,6 @@ a:hover {
   color: #BDE0FE;
 }
 
-/* === FLEXBOX HEADER === */
 header {
   display: flex;
   justify-content: space-between;
@@ -49,12 +46,10 @@ nav a:hover {
   transition: 0.3s;
 }
 
-/* === General Styles === */
 p {
   line-height: 1.6;
 }
 
-/* === Table Rules (from lab06) === */
 table, th, td {
   border: 1px solid #333;
   border-collapse: collapse;
@@ -65,7 +60,6 @@ table, th, td {
   background-color: #ADD8E6;
 }
 
-/* === MAIN FLEX CONTAINER (below hero image) === */
 main {
   display: flex;
   flex-wrap: wrap;
@@ -88,7 +82,6 @@ main {
   max-width: 600px;
 }
 
-/* === FOOTER === */
 footer {
   text-align: center;
   background-color: #FFC8DD;
@@ -96,7 +89,7 @@ footer {
   padding: 10px;
   border-top: 3px solid #FB6F92;
 }
-/* === CONTACT PAGE FLEXBOX === */
+
 .row1, .row2 {
   display: flex;
   justify-content: space-between;
@@ -113,7 +106,23 @@ footer {
   box-shadow: 0 0 8px rgba(0,0,0,0.1);
 }
 
-/* spacing between top and bottom rows */
 .row1 {
   margin-bottom: 30px;
+}
+
+.skills-page {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.skills-page h1 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.skills-intro {
+  text-align: center;
+  margin: 0 auto 30px;
+  max-width: 70ch;
 }
