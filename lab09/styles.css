@@ -137,13 +137,15 @@ footer {
 
 .skills-icons div {
   text-align: center;
+  font-weight: bold;
+  font-size: 1em;
+  color: #FB6F92;
 }
 
-.skills-icons img {
-  width: 80px;
-  height: 80px;
-  border-radius: 10px;
-  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+.skills-icons i {
+  font-size: 60px;
+  color: #FB6F92;
+  margin-bottom: 8px;
 }
 
 .skills-list ul {
