@@ -197,3 +197,7 @@ footer {
 .other-skills li {
   margin: 8px 0;
 }
+
+.skills-icons h2, .skills-list h2 {
+  display: none;
+}
