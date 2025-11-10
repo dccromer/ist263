@@ -64,3 +64,35 @@ table, th, td {
 .evenrow {
   background-color: #ADD8E6;
 }
+
+/* === MAIN FLEX CONTAINER (below hero image) === */
+main {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 20px;
+}
+
+.hero {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+.about, .skills {
+  background-color: #E7C6FF;
+  padding: 20px;
+  border-radius: 12px;
+  flex: 1 1 400px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.15);
+  max-width: 600px;
+}
+
+/* === FOOTER === */
+footer {
+  text-align: center;
+  background-color: #FFC8DD;
+  color: #FB6F92;
+  padding: 10px;
+  border-top: 3px solid #FB6F92;
+}
