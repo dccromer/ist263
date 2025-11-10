@@ -155,3 +155,43 @@ footer {
 .skills-list li {
   margin: 8px 0;
 }
+
+.flexbox2 {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.icons-section {
+  flex: 3;
+  background-color: #E7C6FF;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.other-skills {
+  flex: 1;
+  background-color: #FFC8DD;
+  color: #FB6F92;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.other-skills h2 {
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.other-skills ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.other-skills li {
+  margin: 8px 0;
+}
