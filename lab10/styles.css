@@ -206,3 +206,50 @@ img {
   height: auto;
   display: block;
 }
+
+
+
+/* For tablets (max-width 900px) */
+@media screen and (max-width: 900px) {
+  header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  nav a {
+    display: inline-block;
+    margin: 5px 8px;
+  }
+
+  .flexbox2 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .icons-section, .other-skills {
+    max-width: 90%;
+  }
+}
+
+/* For phones (max-width 600px) */
+@media screen and (max-width: 600px) {
+  body {
+    font-size: 0.95em;
+  }
+
+  header h1 {
+    font-size: 1.4em;
+  }
+
+  .skills-icons {
+    gap: 20px;
+  }
+
+  .skills-icons i {
+    font-size: 45px;
+  }
+
+  .skills-page {
+    padding: 10px;
+  }
+}
