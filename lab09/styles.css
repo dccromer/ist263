@@ -126,3 +126,32 @@ footer {
   margin: 0 auto 30px;
   max-width: 70ch;
 }
+
+.skills-icons {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.skills-icons div {
+  text-align: center;
+}
+
+.skills-icons img {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+.skills-list ul {
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+}
+
+.skills-list li {
+  margin: 8px 0;
+}
