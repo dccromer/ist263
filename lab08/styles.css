@@ -96,3 +96,24 @@ footer {
   padding: 10px;
   border-top: 3px solid #FB6F92;
 }
+/* === CONTACT PAGE FLEXBOX === */
+.row1, .row2 {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 20px;
+  margin: 20px;
+}
+
+.row1 div, .row2 div {
+  background-color: #E7C6FF;
+  border-radius: 12px;
+  padding: 20px;
+  flex: 1;
+  box-shadow: 0 0 8px rgba(0,0,0,0.1);
+}
+
+/* spacing between top and bottom rows */
+.row1 {
+  margin-bottom: 30px;
+}
