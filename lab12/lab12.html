@@ -50,26 +50,70 @@
 </style>
 
 <script>
-// STEP 4: Full PlanetsOff function
-function PlanetsOff() {
-    document.getElementById('mercury').style.display = 'none';
-    document.getElementById('venus').style.display = 'none';
-    document.getElementById('earth').style.display = 'none';
-    document.getElementById('mars').style.display = 'none';
-    document.getElementById('jupiter').style.display = 'none';
-    document.getElementById('saturn').style.display = 'none';
-    document.getElementById('uranus').style.display = 'none';
-    document.getElementById('neptune').style.display = 'none';
 
-    document.getElementById('mercuryinfo').style.display = 'none';
-    document.getElementById('venusinfo').style.display = 'none';
-    document.getElementById('earthinfo').style.display = 'none';
-    document.getElementById('marsinfo').style.display = 'none';
-    document.getElementById('jupiterinfo').style.display = 'none';
-    document.getElementById('saturninfo').style.display = 'none';
-    document.getElementById('uranusinfo').style.display = 'none';
-    document.getElementById('neptuneinfo').style.display = 'none';
-}
+    /* STEP 4 — Turn off all planets and all text */
+    function PlanetsOff() {
+        document.getElementById('mercury').style.display = 'none';
+        document.getElementById('venus').style.display = 'none';
+        document.getElementById('earth').style.display = 'none';
+        document.getElementById('mars').style.display = 'none';
+        document.getElementById('jupiter').style.display = 'none';
+        document.getElementById('saturn').style.display = 'none';
+        document.getElementById('uranus').style.display = 'none';
+        document.getElementById('neptune').style.display = 'none';
+
+        document.getElementById('mercuryinfo').style.display = 'none';
+        document.getElementById('venusinfo').style.display = 'none';
+        document.getElementById('earthinfo').style.display = 'none';
+        document.getElementById('marsinfo').style.display = 'none';
+        document.getElementById('jupiterinfo').style.display = 'none';
+        document.getElementById('saturninfo').style.display = 'none';
+        document.getElementById('uranusinfo').style.display = 'none';
+        document.getElementById('neptuneinfo').style.display = 'none';
+    }
+
+    /* STEP 7 + 8 — Create 8 functions to turn planets ON */
+
+    function MercuryOn() {
+        document.getElementById('mercury').style.display = 'block';
+        document.getElementById('mercuryinfo').style.display = 'block';
+    }
+
+    function VenusOn() {
+        document.getElementById('venus').style.display = 'block';
+        document.getElementById('venusinfo').style.display = 'block';
+    }
+
+    function EarthOn() {
+        document.getElementById('earth').style.display = 'block';
+        document.getElementById('earthinfo').style.display = 'block';
+    }
+
+    function MarsOn() {
+        document.getElementById('mars').style.display = 'block';
+        document.getElementById('marsinfo').style.display = 'block';
+    }
+
+    function JupiterOn() {
+        document.getElementById('jupiter').style.display = 'block';
+        document.getElementById('jupiterinfo').style.display = 'block';
+    }
+
+    function SaturnOn() {
+        document.getElementById('saturn').style.display = 'block';
+        document.getElementById('saturninfo').style.display = 'block';
+    }
+
+    function UranusOn() {
+        document.getElementById('uranus').style.display = 'block';
+        document.getElementById('uranusinfo').style.display = 'block';
+    }
+
+    function NeptuneOn() {
+        document.getElementById('neptune').style.display = 'block';
+        document.getElementById('neptuneinfo').style.display = 'block';
+    }
+
 </script>
 
 </head>
@@ -133,14 +177,15 @@ function PlanetsOff() {
     </div>
 
     <div id="thumbnails">
-        <img src="../images/mecury.jpg" alt="mercury" id="mercurythumb" onclick="PlanetsOff();">
-        <img src="../images/venus.jpg" alt="venus" id="venusthumb" onclick="PlanetsOff();">
-        <img src="../images/earth.jpg" alt="earth" id="earththumb" onclick="PlanetsOff();">
-        <img src="../images/mars.jpg" alt="mars" id="marsthumb" onclick="PlanetsOff();">
-        <img src="../images/jupiter.jpg" alt="jupiter" id="jupiterthumb" onclick="PlanetsOff();">
-        <img src="../images/saturn.jpg" alt="saturn" id="saturnthumb" onclick="PlanetsOff();">
-        <img src="../images/uranus.jpg" alt="uranus" id="uranusthumb" onclick="PlanetsOff();">
-        <img src="../images/neptune.jpg" alt="neptune" id="neptunethumb" onclick="PlanetsOff();">
+        <!-- STEP 9: Add two functions to each thumbnail -->
+        <img src="../images/mecury.jpg" alt="mercury" id="mercurythumb" onclick="PlanetsOff(); MercuryOn();">
+        <img src="../images/venus.jpg" alt="venus" id="venusthumb" onclick="PlanetsOff(); VenusOn();">
+        <img src="../images/earth.jpg" alt="earth" id="earththumb" onclick="PlanetsOff(); EarthOn();">
+        <img src="../images/mars.jpg" alt="mars" id="marsthumb" onclick="PlanetsOff(); MarsOn();">
+        <img src="../images/jupiter.jpg" alt="jupiter" id="jupiterthumb" onclick="PlanetsOff(); JupiterOn();">
+        <img src="../images/saturn.jpg" alt="saturn" id="saturnthumb" onclick="PlanetsOff(); SaturnOn();">
+        <img src="../images/uranus.jpg" alt="uranus" id="uranusthumb" onclick="PlanetsOff(); UranusOn();">
+        <img src="../images/neptune.jpg" alt="neptune" id="neptunethumb" onclick="PlanetsOff(); NeptuneOn();">
     </div>
 
 </div>
