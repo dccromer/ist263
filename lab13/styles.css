@@ -22,7 +22,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #FFC8DD;
+  background-color: #D98CA9; 
   padding: 0.9rem 1.5rem;
   border-bottom: 0.2rem solid #7A0F32;
 }
@@ -85,7 +85,7 @@ main {
 
 footer {
   text-align: center;
-  background-color: #FFC8DD;
+  background-color: #D98CA9;
   color: #4B1540;
   padding: 0.6rem;
   border-top: 0.2rem solid #7A0F32;
@@ -149,7 +149,7 @@ footer {
   margin-bottom: 0.5rem;
 }
 
-.skills-list ul {
+skills-list ul {
   list-style-type: none;
   text-align: center;
   padding: 0;
@@ -177,7 +177,7 @@ footer {
 
 .other-skills {
   flex: 1;
-  background-color: #FFC8DD;
+  background-color: #D98CA9;
   color: #4B1540;
   border-radius: 0.75rem;
   padding: 1.25rem;
