@@ -1,16 +1,16 @@
 body {
   background-color: #CDB4DB;
-  color: #FFAFCC;
+  color: #4B1540;                 /* darker plum text */
   font-family: "Times New Roman", serif;
   font-size: 1rem; /* base size */
 }
 
 h1, h2 {
-  color: #FB6F92;
+  color: #B83265;                 /* darker pink for headings */
 }
 
 a {
-  color: #A2D2FF;
+  color: #1F6FBF;                 /* darker blue link for contrast */
   text-decoration: none;
 }
 
@@ -24,24 +24,24 @@ header {
   align-items: center;
   background-color: #FFC8DD;
   padding: 0.9rem 1.5rem; /* converted from px */
-  border-bottom: 0.2rem solid #FB6F92;
+  border-bottom: 0.2rem solid #B83265;
 }
 
 header h1 {
   font-size: 1.8em;
   margin: 0;
-  color: #FB6F92;
+  color: #B83265;
 }
 
 nav a {
-  color: #FB6F92;
+  color: #B83265;                 /* darker nav links */
   font-weight: bold;
   margin: 0 0.6rem;
 }
 
 nav a:hover {
-  color: white;
-  background-color: #FB6F92;
+  color: #FFFFFF;
+  background-color: #B83265;
   padding: 0.25rem 0.5rem;
   border-radius: 0.4rem;
   transition: 0.3s;
@@ -86,9 +86,9 @@ main {
 footer {
   text-align: center;
   background-color: #FFC8DD;
-  color: #FB6F92;
+  color: #4B1540;                 /* darker footer text */
   padding: 0.6rem;
-  border-top: 0.2rem solid #FB6F92;
+  border-top: 0.2rem solid #B83265;
 }
 
 .row1, .row2 {
@@ -140,12 +140,12 @@ footer {
   text-align: center;
   font-weight: bold;
   font-size: 1em;
-  color: #FB6F92;
+  color: #B83265;                 /* darker label under icons */
 }
 
 .skills-icons i {
   font-size: 3.75rem; /* converted from 60px */
-  color: #FB6F92;
+  color: #B83265;                 /* darker icon color */
   margin-bottom: 0.5rem;
 }
 
@@ -178,7 +178,7 @@ footer {
 .other-skills {
   flex: 1;
   background-color: #FFC8DD;
-  color: #FB6F92;
+  color: #4B1540;                 /* darker text in side card */
   border-radius: 0.75rem;
   padding: 1.25rem;
   box-shadow: 0 0 0.5rem rgba(0,0,0,0.1);
@@ -261,8 +261,8 @@ img {
   position: absolute;
   top: -40px;
   left: 10px;
-  background-color: #FB6F92;
-  color: white;
+  background-color: #B83265;      /* darker background */
+  color: #FFFFFF;                 /* white text for strong contrast */
   padding: 8px 12px;
   border-radius: 6px;
   text-decoration: none;
