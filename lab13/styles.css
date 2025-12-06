@@ -255,3 +255,20 @@ img {
     padding: 0.6rem;
   }
 }
+
+/* Skip to Content button */
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background-color: #FB6F92;
+  color: white;
+  padding: 8px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  z-index: 100;
+}
+
+.skip-link:focus {
+  top: 10px;
+}
